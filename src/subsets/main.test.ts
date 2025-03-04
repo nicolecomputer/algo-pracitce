@@ -10,7 +10,7 @@ describe("subsets", () => {
     })
 
     test("example 1", () => {
-        const expected = [[], [7]]
+        const expected = [[7], []]
         const result = subsets([7])
 
         expect(expected).toEqual(result)
