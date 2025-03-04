@@ -3,12 +3,14 @@ function explore(nums: number[], index: number, prefix: number[]): number[][] {
         return [prefix]
     }
 
+    // Explore the tree
+    const cur = nums[index]
+
     return [
-        // Explore the tree
 
         // Where we add this number to the prefix
-        ...explore(nums, index + 1, [...prefix, nums[index]]),
-        
+        ...explore(nums, index + 1, [...prefix, cur]),
+
         // And where we don't add this number to the prefix
         ...explore(nums, index + 1, prefix)
     ]

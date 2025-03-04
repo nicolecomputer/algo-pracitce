@@ -6,7 +6,6 @@ describe("subsets", () => {
         const result = subsets([])
 
         expect(expected).toEqual(result)
-    
     })
 
     test("example 1", () => {
