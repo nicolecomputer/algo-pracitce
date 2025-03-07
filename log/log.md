@@ -10,4 +10,5 @@
 
 ## 03/06/2025
 
-- Imeplemented word search
+- Implemented word search: 
+- Implemented combination sum 2: https://neetcode.io/problems/combination-target-sum-ii
