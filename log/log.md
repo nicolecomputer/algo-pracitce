@@ -19,3 +19,9 @@
 - Implemented permutations
 - Impemented telephone
 - Implemented subsets ii
+
+
+## 03/08/2026
+
+- All Palindromes done
+- n Queens started
