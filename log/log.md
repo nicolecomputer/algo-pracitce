@@ -25,3 +25,6 @@
 
 - All Palindromes done
 - n Queens started
+
+## 03/10/2025
+- Island problem mostly done
